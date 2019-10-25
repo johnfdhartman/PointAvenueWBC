@@ -1,7 +1,7 @@
 # Strings, Lists, Functions!
 
-def sum_list (list):
+def sum_list (nums):
     total = 0
-    for element in list:
+    for element in nums:
         total = total + element
     return total
