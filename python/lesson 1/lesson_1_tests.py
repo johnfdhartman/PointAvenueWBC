@@ -325,6 +325,41 @@ highest_pair_data = [
   }
 ];
 
+is_prime_data = [
+  {
+    'in_data': 1,
+    'target': False,
+    'exp': 'returns false for 1'
+  },
+  {
+    'in_data': 50,
+    'target': False,
+    'exp': 'returns false for 50'
+  },
+  {
+    'in_data': 99,
+    'target': False,
+    'exp': 'returns false for 99'
+  },
+  {
+    'in_data': 17,
+    'target': True,
+    'exp': 'returns true for 17'
+  },
+  {
+    'in_data': 2,
+    'target': True,
+    'exp': 'returns true for 2'
+  },
+  {
+    'in_data': 163,
+    'target': True,
+    'exp': 'returns true for 163'
+  },
+
+
+];
+
 highest_sub_sum_data = [
   {
     'in_data': [5],
