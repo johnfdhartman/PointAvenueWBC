@@ -11,13 +11,13 @@ class bcolors:
 def test_func (func, test_data):
     num_args = func.__code__.co_argcount
 
-    print('testing ' + func.__name__)
+    print(bcolors.OKBLUE + 'testing ' + func.__name__ +bcolors.ENDC)
     for test in test_data:
         if num_args == 1:
-            result = func(['in_data'])
+            result = func(test['in_data'])
         elif num_args > 1:
             result = func(*['in_data'])
         if result == test['target']:
-            print (bcolors.OKBLUE + 'passed: ' + test['exp']+ bcolors.ENDC)
+            print (bcolors.OKGREEN + 'passed: ' + test['exp']+ bcolors.ENDC)
         else:
             print (bcolors.FAIL + 'failed: ' + test['exp']+ bcolors.ENDC)
