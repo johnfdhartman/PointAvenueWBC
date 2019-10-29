@@ -1,4 +1,4 @@
-from lesson_1_answers import sum_list
+from lesson_1_exercises import sum_list
 from test_functions import test_func
 
 sum_list_data = [
