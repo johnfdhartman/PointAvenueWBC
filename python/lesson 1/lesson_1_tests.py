@@ -7,6 +7,7 @@ def test_all ():
     test_func(funcs.multiply_odd_add_even, multiply_odd_add_even_data)
     test_func(funcs.string_length, string_length_data)
     test_func(funcs.odd_even, odd_even_data)
+    test_func(funcs.shout_it, shout_it_data)
     test_func(funcs.times_by_index, times_by_index_data)
     test_func(funcs.contains_monkey, contains_monkey_data)
     test_func(funcs.fibonacci, fibonacci_data)
@@ -160,6 +161,24 @@ odd_even_data = [
     'target': [[9,7,3,1,5],[2,8]],
     'exp': 'accepts arrays of repeated elements'
   },
+]
+
+shout_it_data = [
+    {
+      'in_data': '',
+      'target': '!',
+      'exp': 'accepts the empty string'
+    },
+    {
+      'in_data': 'word',
+      'target': 'word!',
+      'exp': 'accepts strings with one word'
+    },
+    {
+      'in_data': 'word1 word2 word3',
+      'target': 'word1! word2! word3!',
+      'exp': 'accepts arrays with multiple words'
+    }
 ]
 
 times_by_index_data = [

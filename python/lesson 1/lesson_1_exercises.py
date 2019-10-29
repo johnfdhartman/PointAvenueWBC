@@ -33,6 +33,14 @@ def add_ing (str):
 def odd_even (nums):
     return None
 
+#Create a function that shouts each word (separated by a space) in a string
+#eg. 'giraffes' -> 'giraffes!'
+#'do not want' -> 'do! not! want!'
+#'python, programming.' -> 'python,! programing.!'
+#'' -> '!'
+def shout_it (str):
+    return None
+
 #Create a function that multiplies each element of a list with the index of that element. e.g [2,2,2,2] -> [0, 2, 4, 6]
 
 def times_by_index (nums):
@@ -44,7 +52,7 @@ def times_by_index (nums):
 #'bb_monkey_xx' -> True
 #'Are we monkeys or men?' -> True
 #'i am a MONKEY' -> False
-def contains_monkey (nums):
+def contains_monkey (str):
     return None
 
 #Create a function that returns the nth fibonacci number. For example 6->8
