@@ -62,6 +62,7 @@ multiply_array_data = [
     'exp': 'accepts arrays with one element'
   }
 ]
+
 multiply_odd_add_even_data = [
   {
     'in_data': [2,2,3,4,5],
@@ -83,6 +84,29 @@ multiply_odd_add_even_data = [
     'target': 12,
     'exp': 'accepts arrays with no odd elements'
   },
+]
+
+string_length_data = [
+    {
+      'in_data': '',
+      'target': 0,
+      'exp': 'accepts the empty string'
+    },
+    {
+      'in_data': 'a',
+      'target': 1,
+      'exp': 'accepts strings with 1 element'
+    },
+    {
+      'in_data': 'abcde',
+      'target': 5,
+      'exp': 'accepts longer arrays with no spaces'
+    },
+    {
+      'in_data': 'aba gada',
+      'target': 8,
+      'exp': 'accepts arrays with spaces'
+    }
 ]
 
 odd_even_data = [
