@@ -15,7 +15,7 @@ def test_func (func, test_data):
     for test in test_data:
         if num_args == 1:
             result = func(['in_data'])
-        else if num_args > 1:
+        elif num_args > 1:
             result = func(*['in_data'])
         if result == test['target']:
             print (bcolors.OKBLUE + 'passed: ' + test['exp']+ bcolors.ENDC)
