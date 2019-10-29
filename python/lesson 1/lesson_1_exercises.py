@@ -15,6 +15,20 @@ def multiply_array (nums):
 def multiply_odd_add_even (nums):
     return None
 
+
+# Create a function that returns the length of a string
+# Do not use the in-built length() function for this
+
+def string_length (str):
+    return None
+
+
+# Create a function that adds "ing" to the end of a string
+# e.g 'abc' -> 'abcing'
+def add_ing (str):
+    return None
+
+
 # Create a function that takes a list of integers, and returns two new arrays: the first has all the even numbers, the second has all the odd numbers. the order of these lists is not changed.
 
 def odd_even (nums):

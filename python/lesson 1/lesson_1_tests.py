@@ -110,6 +110,29 @@ string_length_data = [
     }
 ]
 
+add_ing_data = [
+    {
+      'in_data': '',
+      'target': 'ing',
+      'exp': 'accepts the empty string'
+    },
+    {
+      'in_data': 'a',
+      'target': 'aing',
+      'exp': 'accepts strings with 1 element'
+    },
+    {
+      'in_data': 'abcde',
+      'target': 'abcdeing',
+      'exp': 'accepts longer arrays with no spaces'
+    },
+    {
+      'in_data': 'aba gada',
+      'target': 'aba gadaing',
+      'exp': 'accepts arrays with spaces'
+    }
+]
+
 odd_even_data = [
   {
     'in_data': [1,2,3,4,5,6],
