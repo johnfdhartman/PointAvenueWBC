@@ -10,17 +10,19 @@ def sum_list (nums):
 def multiply_array (nums):
     return None
 
+
+# Create a function that returns the length of a string
+# Do not use the in-built length() function for this
+def string_length (str):
+    return None
+
 # Create a function that multiplies all the odd numbers in a list together, adds all the even numbers together, then returns those two numbers added together. Assume there are no negative elements
 #  hint: use the modulus operator
 def multiply_odd_add_even (nums):
     return None
 
 
-# Create a function that returns the length of a string
-# Do not use the in-built length() function for this
 
-def string_length (str):
-    return None
 
 
 # Create a function that adds "ing" to the end of a string
@@ -46,9 +48,8 @@ def shout_it (str):
 def times_by_index (nums):
     return None
 
-
 #Create a function that return True if a string *contains* at least one instance of the word "monkey" (lower case) as a substring.
-#eg 'abcd' -> False
+#eg 'mere ape' -> False
 #'bb_monkey_xx' -> True
 #'Are we monkeys or men?' -> True
 #'i am a MONKEY' -> False
