@@ -28,7 +28,6 @@ def string_length (str):
 def add_ing (str):
     return None
 
-
 # Create a function that takes a list of integers, and returns two new arrays: the first has all the even numbers, the second has all the odd numbers. the order of these lists is not changed.
 
 def odd_even (nums):
@@ -37,6 +36,15 @@ def odd_even (nums):
 #Create a function that multiplies each element of a list with the index of that element. e.g [2,2,2,2] -> [0, 2, 4, 6]
 
 def times_by_index (nums):
+    return None
+
+
+#Create a function that return True if a string *contains* at least one instance of the word "monkey" (lower case) as a substring.
+#eg 'abcd' -> False
+#'bb_monkey_xx' -> True
+#'Are we monkeys or men?' -> True
+#'i am a MONKEY' -> False
+def contains_monkey (nums):
     return None
 
 #Create a function that returns the nth fibonacci number. For example 6->8

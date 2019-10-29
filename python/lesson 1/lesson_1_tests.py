@@ -8,6 +8,7 @@ def test_all ():
     test_func(funcs.string_length, string_length_data)
     test_func(funcs.odd_even, odd_even_data)
     test_func(funcs.times_by_index, times_by_index_data)
+    test_func(funcs.contains_monkey, contains_monkey_data)
     test_func(funcs.fibonacci, fibonacci_data)
     test_func(funcs.highest_pair, highest_pair_data)
     test_func(funcs.highest_sub_sum, highest_sub_sum_data)
@@ -183,6 +184,39 @@ times_by_index_data = [
     'exp': 'accepts arrays of mixed positive and negative integers and 0'
   }
 ];
+
+contains_monkey_data = [
+    {
+      'in_data': '',
+      'target': False,
+      'exp': 'returns false for empty string'
+    },
+    {
+      'in_data': 'paaar',
+      'target': False,
+      'exp': 'returns false for strings that do not contain monkey'
+    },
+    {
+      'in_data': 'this is a MONKEY',
+      'target': False,
+      'exp': 'returns false for instances of upper case MONKEY'
+    },
+    {
+      'in_data': 'monkey',
+      'target': True,
+      'exp': 'returns true for the string "monkey"'
+    },
+    {
+      'in_data': 'mmoonnkkeeyy',
+      'target': False,
+      'exp': 'returns false for strings that contain the characters of monkey in the wrong places'
+    },
+    {
+      'in_data': 'are we not monkeys?',
+      'target': True,
+      'exp': 'returns true for strings that contain monkey as a substring'
+    },
+]
 
 fibonacci_data = [
   {
