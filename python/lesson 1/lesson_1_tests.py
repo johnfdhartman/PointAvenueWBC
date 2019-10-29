@@ -3,6 +3,7 @@ from test_functions import test_func
 
 def test_all ():
     test_func(funcs.sum_list, sum_list_data)
+    test_func(funcs.largest_element, largest_element_data)
     test_func(funcs.multiply_array, multiply_array_data)
     test_func(funcs.string_length, string_length_data)
     test_func(funcs.multiply_odd_add_even, multiply_odd_add_even_data)
@@ -35,6 +36,34 @@ sum_list_data = [
     'in_data': [-5,4,5,-6],
     'target': -2,
     'exp': 'should accept lists with negative elements'
+    },
+]
+
+largest_element_data = [
+    {
+    'in_data': [1,2,3,4],
+    'target': 4,
+    'exp': 'should accept lists where the largest number is at the end'
+    },
+    {
+    'in_data': [],
+    'target': None,
+    'exp': 'should accept lists with no elements'
+    },
+    {
+    'in_data': [5],
+    'target': 5,
+    'exp': 'should accept lists with 1 element'
+    },
+    {
+    'in_data': [-5,4,17,-6,0],
+    'target': 17,
+    'exp': 'should accept lists with negative elements'
+    },
+    {
+    'in_data': [-5,-4,-10,-6,-12],
+    'target': -4,
+    'exp': 'should accept lists where the largest element is negative'
     },
 ]
 

@@ -5,11 +5,15 @@
 def sum_list (nums):
     return None
 
+#Create a function that finds the largest number in a list
+#return None if the list is empty
+def largest_element (nums):
+    return None
+
 # Create a function that multiplies all the elements of a list together.
 # Hint: Use a for loop
 def multiply_array (nums):
     return None
-
 
 # Create a function that returns the length of a string
 # Do not use the in-built length() function for this
@@ -20,8 +24,6 @@ def string_length (str):
 #  hint: use the modulus operator
 def multiply_odd_add_even (nums):
     return None
-
-
 
 
 
