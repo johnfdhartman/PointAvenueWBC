@@ -1,5 +1,16 @@
-from lesson_1_exercises import sum_list
+import lesson_1_exercises as funcs
 from test_functions import test_func
+
+def test_all ():
+    test_func(funcs.sum_list, sum_list_data)
+    test_func(funcs.multiply_array, multiply_array_data)
+    test_func(funcs.multiply_odd_add_even, multiply_odd_add_even_data)
+    test_func(funcs.odd_even, odd_even_data)
+    test_func(funcs.times_by_index, times_by_index_data)
+    test_func(funcs.fibonacci, fibonacci_data)
+    test_func(funcs.highest_pair, highest_pair_data)
+    test_func(funcs.highest_sub_sum, highest_sub_sum_data)
+
 
 sum_list_data = [
     {
@@ -74,7 +85,7 @@ multiply_odd_add_even_data = [
   },
 ]
 
-odd_even_test_data = [
+odd_even_data = [
   {
     'in_data': [1,2,3,4,5,6],
     'target': [[1,3,5],[2,4,6]],

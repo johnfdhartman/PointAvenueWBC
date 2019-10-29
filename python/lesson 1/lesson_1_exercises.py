@@ -12,7 +12,7 @@ def multiply_array (nums):
 
 # Create a function that multiplies all the odd numbers in a list together, adds all the even numbers together, then returns those two numbers added together. Assume there are no negative elements
 #  hint: use the modulus operator
-def multipy_odd_add_even (nums):
+def multiply_odd_add_even (nums):
     return None
 
 # Create a function that takes a list of integers, and returns two new arrays: the first has all the even numbers, the second has all the odd numbers. the order of these lists is not changed.
