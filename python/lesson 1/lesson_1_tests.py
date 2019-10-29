@@ -5,6 +5,7 @@ def test_all ():
     test_func(funcs.sum_list, sum_list_data)
     test_func(funcs.multiply_array, multiply_array_data)
     test_func(funcs.multiply_odd_add_even, multiply_odd_add_even_data)
+    test_func(funcs.string_length, string_length_data)
     test_func(funcs.odd_even, odd_even_data)
     test_func(funcs.times_by_index, times_by_index_data)
     test_func(funcs.fibonacci, fibonacci_data)
