@@ -9,7 +9,7 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 def test_func (func, test_data):
-    num_args = len(func.func_code.co_varnames)
+    num_args = func.__code__.co_argcount
 
     print('testing ' + func.__name__)
     for test in test_data:
