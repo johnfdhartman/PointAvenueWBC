@@ -25,8 +25,6 @@ def string_length (str):
 def multiply_odd_add_even (nums):
     return None
 
-
-
 # Create a function that adds "ing" to the end of a string
 # e.g 'abc' -> 'abcing'
 def add_ing (str):

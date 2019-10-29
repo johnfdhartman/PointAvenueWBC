@@ -15,7 +15,6 @@ def test_all ():
     test_func(funcs.highest_pair, highest_pair_data)
     test_func(funcs.highest_sub_sum, highest_sub_sum_data)
 
-
 sum_list_data = [
     {
     'in_data': [1,2,3,4],
@@ -392,3 +391,5 @@ highest_sub_sum_data = [
     'exp': 'works for arrays with large negative subarrays in middle'
   },
 ];
+
+test_all()
