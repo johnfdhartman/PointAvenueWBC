@@ -355,9 +355,64 @@ is_prime_data = [
     'target': True,
     'exp': 'returns true for 163'
   },
+]
 
+is_palindrome_data = [
+  {
+    'in_data': '',
+    'target': True,
+    'exp': 'returns True for empty string'
+  },
+  {
+    'in_data': 'a',
+    'target': True,
+    'exp': 'returns True for strings with length 1'
+  },
+  {
+    'in_data': 'xyz123',
+    'target': False,
+    'exp': 'returns False for strings that do not contain palindromes'
+  },
+  {
+    'in_data': '123454321',
+    'target': True,
+    'exp': 'returns true for palindromes'
+  },
+  {
+    'in_data': 'zzzz12321aa',
+    'target': True,
+    'exp': 'returns False for strings that contain palindromes but are not palindromes'
+  },
+]
 
-];
+contains_palindrome_data = [
+  {
+    'in_data': '',
+    'target': True,
+    'exp': 'returns True for empty string'
+  },
+  {
+    'in_data': 'a',
+    'target': True,
+    'exp': 'returns True for strings with length 1'
+  },
+  {
+    'in_data': 'xyz123',
+    'target': False,
+    'exp': 'returns False for strings that do not contain palindromes'
+  },
+  {
+    'in_data': '123454321',
+    'target': True,
+    'exp': 'returns true for palindromes'
+  },
+  {
+    'in_data': 'zzzz12321aa',
+    'target': True,
+    'exp': 'returns True for strings that contain palindromes but are not palindromes'
+  },
+]
+
 
 highest_sub_sum_data = [
   {
