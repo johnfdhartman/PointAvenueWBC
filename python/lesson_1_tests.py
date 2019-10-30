@@ -13,6 +13,8 @@ def test_all ():
     test_func(funcs.contains_monkey, contains_monkey_data)
     test_func(funcs.fibonacci, fibonacci_data)
     test_func(funcs.highest_pair, highest_pair_data)
+    test_func(funcs.is_palindrome, is_palindrome_data)
+    test_func(funcs.contains_palindrome, contains_palindrome_data)
     test_func(funcs.highest_sub_sum, highest_sub_sum_data)
 
 sum_list_data = [
@@ -409,7 +411,7 @@ contains_palindrome_data = [
   {
     'in_data': 'zzzz12321aa',
     'target': True,
-    'exp': 'returns True for strings that contain palindromes but are not palindromes'
+    'exp': 'returns Tue for strings that contain palindromes but are not palindromes'
   },
 ]
 
