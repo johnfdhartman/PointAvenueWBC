@@ -79,6 +79,21 @@ def highest_pair (nums):
 def is_prime (n):
     return None
 
+
+#a palindrome is a string that reads the same way forward as it does backwards.
+#e.g abcd -> False, abcdcba -> True
+#create a function that returns True if the string is a palindrome
+
+def is_palindrome (str):
+    return None
+
+
+#create a function that returns true if the string *contains* a palindrome
+#e.g abc -> False, abcba -> True, aaaabob0 -> True, because bob is a palindrome
+
+def contains_palindrome (str):
+    return None
+
 #A sub-list is a part of a list that can be made without any gaps. For example [7,2,3] is a sub-list of [4,7,2,3,1]. But [7,3] is not a sub-list because it skips 2. And [3,2,1] is not a sub-list because it is in the incorrect order. A sub-list can have one element.
 
 #Write a function that takes a list of numbers (positive, negative, and zero) and returns the highest *sum* that can be made from a sub-list.
