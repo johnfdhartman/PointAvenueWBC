@@ -1,3 +1,25 @@
+#Dictionary exercises:
+
+
+#write a function that adds a key value pair to a dictionary
+#e.g add_key_val({'a':10, 'b':20}, {'c':50}) -> {'a':10, 'b':20, 'c':50}
+def add_key_val (dict, key_val):
+    return None
+
+#write a function that takes two lists of the same length and creates
+#a dictionary out of them. the first list will be the keys, the second
+#list is the values. map them according to their indices, that is,
+#key_list = ['a','b','c'], val_list = [1,2,3] -> {'a':1, 'b':2, 'c':3}
+def lists_to_dict (key_list, val_list):
+     return None
+
+#write a function that merges two dictionaries together
+#assume that dict_1 and dict_2 have no key values in common
+#e.g if a = {'p':1, 'q':2} and b = {'x':10, 'y':20} then
+#merge_dicts(a, b) = {'p':1, 'q':2, 'y':20}
+def merge_dicts (dict_1, dict_2):
+    return None
+
 #Basic algorithms
 #By now you should know the basics of loops and data structures.
 #As we start getting into Algorithms, the functions you have to make will
