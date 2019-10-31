@@ -1,5 +1,7 @@
 #Basic algorithms
-
+#By now you should know the basics of loops and data structures.
+#As we start getting into Algorithms, the functions you have to make will
+#become trickier. Remember to think before you code!
 
 
 #Bubble sort is a well known algorithm for sorting a list.
@@ -30,4 +32,19 @@ def my_sort (unsorted):
 #for example: [ [[1],2], [[3]], [4], 5] -> [1,2,3,4,5]
 
 def flatten_list (deep_nested):
+    return None
+
+
+#Write a function that takes a deeply nested list and a target, and
+#returns True if the list contains the target. (and false if it doesn't)
+#For example [1,2, [3,4], [[[5]]]], 3 -> True
+def search_nested_list (deep_nested, target):
+    return None
+
+
+#let the 'depth' of a list be its maximum level of listing. that is,
+#[1,2,3] has depth 1, [1,[2,3]] has depth 2, [[1],[2,[3]]] has depth 3.
+#write a function that finds the depth of a deeply nested list.
+
+def list_depth (in_list):
     return None
