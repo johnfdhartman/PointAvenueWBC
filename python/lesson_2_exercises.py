@@ -1,4 +1,4 @@
-#Dictionary exercises:
+#Dictionaries:
 
 
 #write a function that adds a key value pair to a dictionary
@@ -18,6 +18,35 @@ def lists_to_dict (key_list, val_list):
 #e.g if a = {'p':1, 'q':2} and b = {'x':10, 'y':20} then
 #merge_dicts(a, b) = {'p':1, 'q':2, 'y':20}
 def merge_dicts (dict_1, dict_2):
+    return None
+
+#write a function that creates a dictionary where the keys are all the
+#natural numbers up to n, and the values are their squares.
+#e.g squares(4) = {1: 1, 2: 4, 3: 9, 4: 9}
+def squares(n):
+    return None
+
+#Sets:
+
+#A subset Q of a set S is a set where all the elements of Q are also in S
+#for example {1,3} is a subset of {1,2,3,4}
+#{4,5,6} is NOT a subset of {1,2,3,4,5} because 6 is not in {1,2,3,4,5}.
+#remember that EVERY set is a subset of itself, and that the empty set {}
+#is a subset of EVERY set.
+
+#write a function that determines if a set is a subset of another set
+#e.g is_subset({4,5}, {3,4,5,6}) -> True
+# is_subset({'apple', 'banana'}, {'tomato', 'carrot'}) -> False
+def is_subset(set_1, set_2):
+    return None
+
+
+#The power set of S is the set of ALL subsets of S.
+#for example, the power set of {'a','b'} is
+#{ {}, {'a'}, {'b'}, {'a','b'} }
+
+#write a function that returns the power set of a set.
+def power_set(in_set):
     return None
 
 #Basic algorithms
